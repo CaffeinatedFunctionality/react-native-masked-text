@@ -7,6 +7,10 @@
 
 This is a simple masked text (normal text and input text) component for React-Native.
 
+## Update:
+
+Added support for US Zip code standards and allowed `onlyNumbers` in custom type to support phone numbers, etc. Also merged some PR requests that were outstanding.
+
 ## Alert
 Hey guys!
 
