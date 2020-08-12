@@ -302,7 +302,11 @@ Sample code ([source](https://github.com/benhurott/react-native-masked-text-samp
      * S - accept alphanumeric.
      * * - accept all, EXCEPT white space.
     */
-    mask: "999 AAA SSS ***"
+    mask: "(999) 999-9999"
+    /**
+     * onlyNumbers: (Boolean | optional | undefined)
+     */
+    onlyNumbers: true
   }}
   value={this.state.text}
   onChangeText={text => {
