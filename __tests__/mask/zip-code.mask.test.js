@@ -53,10 +53,10 @@ test('11111111 results 11111-111 and raw value 11111111', () => {
     expect(receivedRawValue).toBe(expectedRawValue)
 })
 
-test('getMask returns 99999-999', () => {
+test('getMask returns 99999-9999', () => {
     var mask = new ZipCodeMask()
 
-    var expected = '99999-999'
+    var expected = '99999-9999'
     var received = mask.getMask()
 
     expect(received).toBe(expected)
