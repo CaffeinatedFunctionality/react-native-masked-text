@@ -310,7 +310,7 @@ Sample code ([source](https://github.com/benhurott/react-native-masked-text-samp
       text: text
     })
   }}
-  style={textInputStype}
+  style={textInputStyle}
 />
 
 
@@ -380,7 +380,7 @@ Sample code ([source](https://github.com/benhurott/react-native-masked-text-samp
       text: text
     })
   }}
-  style={textInputStype}
+  style={textInputStyle}
 />
 ```
 
